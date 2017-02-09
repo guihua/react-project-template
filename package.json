@@ -25,6 +25,7 @@
         "babel-preset-react": "^6.11.1",
         "babel-preset-stage-0": "^6.5.0",
         "css-loader": "^0.23.1",
+        "cz-conventional-changelog": "^1.2.0",
         "eslint": "^3.0.0",
         "extract-text-webpack-plugin": "^1.0.1",
         "file-loader": "^0.9.0",
@@ -60,5 +61,10 @@
     "bugs": {
         "url": "https://github.com/guihua/react-project-template/issues"
     },
-    "homepage": "https://github.com/guihua/react-project-template#readme"
+    "homepage": "https://github.com/guihua/react-project-template#readme",
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
 }
