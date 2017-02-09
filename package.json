@@ -11,7 +11,8 @@
         "server": "http-server",
         "watch": "webpack -w",
         "build": "rm -fr ./build && webpack",
-        "lint": "eslint . --ext .js,.jsx || true"
+        "lint": "eslint . --ext .js,.jsx || true",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
     },
     "repository": {
         "type": "git",
