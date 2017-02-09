@@ -2,8 +2,8 @@
     "name": "react-project-template",
     "version": "1.0.0",
     "author": {
-        "name": "guihua.pgh",
-        "email": "guihua.pgh@alibaba-inc.com"
+        "name": "guihua",
+        "email": "guihuapeng@126.com"
     },
     "description": "react项目模板",
     "scripts": {
